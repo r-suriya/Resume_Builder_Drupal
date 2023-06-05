@@ -1,0 +1,10 @@
+name: 'Resume Builder'
+type: module
+core_version_requirement: ^8 || ^9
+description: 'Student management custom module'
+package: Custom
+version: 1.0
+dependencies:
+  - drupal:dblog
+libraries:
+  - resume_builder/resume_builder
