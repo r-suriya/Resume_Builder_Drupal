@@ -392,7 +392,7 @@ class ResumeBuilderForm extends FormBase
       $form_state->setRebuild();
 
 
-      $url = "/resume_builder/generate/" . $id;
+      $url = "/resume_builder/resume_builder/generate/" . $id;
 
       $response = new RedirectResponse($url);
       $response->send();
